@@ -1,0 +1,16 @@
+/* Estilos para el contenedor de Información General */
+.informacion-container {
+    position: relative;   /* Asegura que el contenido se posicione sobre el fondo */
+    padding: 30px;         /* Agrega un poco de espacio alrededor del contenido */
+    background: rgba(255, 255, 255, 0);  /* Fondo completamente transparente */
+    color: rgb(0, 0, 0);         /* Asegura que el texto sea blanco (o cambia el color según el fondo) */
+    border: none;         /* Elimina cualquier borde alrededor del contenedor */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Opcional: Agrega sombra para el texto */
+    z-index: 1;           /* Asegura que el contenido esté por encima del fondo */
+  }
+  
+  /* Mejorar la legibilidad del texto */
+  .informacion-container h2, .informacion-container p {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);  /* Sombra de texto para mejorar la visibilidad */
+  }
+  

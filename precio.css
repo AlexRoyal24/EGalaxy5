@@ -1,0 +1,34 @@
+/* Estilos para el componente Precio */
+
+.container {
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Cambia 'Arial' a tu fuente preferida */
+    color: #ffffff; /* Cambia el color a tu preferencia, ejemplo: #333 para gris oscuro */
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #007bff; /* Cambia el color del título */
+  }
+  
+  .carousel-text {
+    font-size: 16px;
+    color: #ffffff; /* Color para el texto del carrusel */
+  }
+  
+  .upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .upload-box p {
+    color: #777; /* Color para el mensaje de subida de imagen */
+  }
+  

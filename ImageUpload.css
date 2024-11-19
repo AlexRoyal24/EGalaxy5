@@ -1,0 +1,17 @@
+/* src/components/ImageUpload.css */
+.image-upload {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-upload .upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
